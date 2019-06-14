@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class MoviesService {
   // SUBSTITUIR PELA SUA API DO MOVIE DATABASE
-  private chave="";
+  private chave="9a08fb8630f61654c45bf191c1ef0b91";
   private caminhoPadrao="http://api.themoviedb.org/3";
 
   constructor(public http: HttpClient) {}
